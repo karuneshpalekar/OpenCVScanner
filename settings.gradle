@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "OpenCameraCollab32"
+include ':java'
+project(':java').projectDir = new File(opencvsdk + '/sdk')
